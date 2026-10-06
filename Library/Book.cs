@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Library
 {
-    public class Book
+    class Book
     {
         string Title;
         string Author;
@@ -18,7 +18,7 @@ namespace Library
             this.ISBN = bookISBN;
         }
 
-        void DisplayInfo()
+        public void DisplayInfo()
         {
             Console.WriteLine($"Book title: {Title}");
             Console.WriteLine($"Book Author: {Author}");
